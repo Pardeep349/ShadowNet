@@ -33,7 +33,6 @@ import java.util.TreeSet;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.StreamSupport;
 
-/** Console entry point and user workflow for ShadowNetX. */
 public final class ShadowNetX {
     private static final int DEFAULT_PORT = 8443;
     private static final Path STATE = Path.of(System.getProperty("user.home"), ".shadownetx");

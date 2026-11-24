@@ -7,7 +7,7 @@ import java.security.MessageDigest;
 import java.security.SecureRandom;
 import java.util.Base64;
 
-/** Password hashing at the account boundary; plaintext is never persisted. */
+
 public final class PasswordService {
     private static final int ITERATIONS = 310_000;
     private static final int KEY_BITS = 256;

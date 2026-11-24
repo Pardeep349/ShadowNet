@@ -24,7 +24,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/** HTTPS API and transient one-room broker. */
 public final class ChatServer implements AutoCloseable {
     private static final int MAX_BODY_BYTES = 16_384;
     private static final int MAX_MESSAGE_CHARS = 500;
@@ -293,4 +292,3 @@ public final class ChatServer implements AutoCloseable {
         public ValidationException(String message) { super(message); }
     }
 }
-
